@@ -1,7 +1,9 @@
-hungry=input("Are you hungry?")
-if hungry=="2":
+hungry=str(input("Are you hungry?"))
+if hungry=="yes":
    print("eat biscuit")
    print("eat pizza")
    print("burger")
 else:
-  print("happy")
+  thirsty=str(input("are you thirsty"))
+  if thirsty=="yes":
+     print("drink water")
